@@ -1,68 +1,76 @@
 *{padding: 0;
 margin: 0px;
-box-sizing: border-box;}
+box-sizing: border-box;
+}
 body{
-    background-color: orchid;
+    background-color: navy;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh; 
+}
+.parent{
+    display: flex;
+    flex-direction: row;
 }
 .header{
     display: flex;
     justify-content: center;
-    color: black;
-    font-size: 70px;
-    font-weight: 800;
+    background-color: lightblue;
+    border-style: ridge;
+    border-radius: 40px;
+    color: orangered;
+    font-size: 50px;
+    font-weight: 100;
+    margin: 30px;    
 }
 .submit{
     display: flex;
-    justify-content: center;
-    
-    
+    justify-content: flex-start;
+    margin: 10px;
+    padding: 10px;
+    height: 50px;
 }
 .taskdetails{
     display: flex;
     flex-direction: column;
-   margin: auto;
+    background-color: orangered;
+    margin: 10px;
    padding: 10px;
-   justify-content: center;
-    width: 250px;
+    width: 200px;
     gap: 5px;
-    border-style: groove;
-    border-radius: 20px;
-    background-color: purple;
+}
+.tasktitle{
+    border-radius: 5px;
+    border-style: none;
+    height: 30px;
 }
 .description{
+    border-radius: 5px;
     height: 50px;
+    border-style: none;
 }
-select{
-    color: orangered;
-    cursor: pointer;
-}
-.select{
-    display: inline-block;
-    width: 100px;
-   position: relative;
-    color: black;
-    align-items: center;
-    justify-content: center;
-    padding-left: 250px;
+.completiondate{
+    border-radius: 5px;
+    border-style: none;
+    height: 30px;
 }
 .dropdown{
     display: flex;
-    margin: 50px;
-    align-items:flex-end;
-    justify-content: flex-end;
     border-radius: 30%;
+    color: orangered;
+    cursor: pointer;
+    margin: 20px;
+    padding: 5px;
 }
-.tasklist{
+ .tasklist{
    display: flex;
-   background-color: blueviolet;
-   
+   flex-direction: column;
+   background-color: white;
+   color: black;
+   justify-content: center;
+   align-items: center;
+   width: 150%;
+   border-radius: 20px;
+   margin-left: 10px;
 }
 
-.tasksdiv{
-    display: flex;
-    justify-content: center;
-    margin: 100px;
-    width: 100px;
-    background-color: blueviolet;
-    align-items: center;
-}
